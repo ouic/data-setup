@@ -637,6 +637,16 @@ To be sure that you can interact with your browser installed on Windows from you
 
   Run the command:
 
+  command OUIC:
+
+  ```bash
+    ls /mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe
+  ```
+
+  or
+  
+  command Le Wagon:
+  
   ```bash
     ls /mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe
   ```
@@ -652,6 +662,9 @@ To be sure that you can interact with your browser installed on Windows from you
   ```bash
     echo "export BROWSER='\"/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe\"'" >> ~/.zshrc
   ```
+  
+  Then restart the terminal !
+  
 </details>
 
 <details>
