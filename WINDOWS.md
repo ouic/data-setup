@@ -876,7 +876,7 @@ First let's install `pyenv` with the following Terminal command:
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-Then quit **all your opened terminal windows** (`Cmd` + `Q`) and restart one. Ignore the `pyenv: no such command 'virtualenv-init' for now`.
+Then quit **all your opened terminal windows** (`Cmd` + `Q`) and restart one. Ignore the `pyenv: no such command 'virtualenv-init'` for now.
 
 Let's install some [dependencies](https://github.com/pyenv/pyenv/wiki/common-build-problems#prerequisites) needed to build Python from `pyenv`:
 
