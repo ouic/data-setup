@@ -900,7 +900,7 @@ sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
 Let's install the [latest stable version of Python](https://www.python.org/doc/versions/) supported by Le Wagon's curriculum:
 
 ```bash
-pyenv install 3.8.6
+pyenv install 3.10.0
 ```
 
 This command might take a while, this is perfectly normal. Don't hesitate to help other students seated next to you!
@@ -908,7 +908,7 @@ This command might take a while, this is perfectly normal. Don't hesitate to hel
 OK once this command is complete, we are going to tell the system to use this version of Python **by default**. This is done with:
 
 ```bash
-pyenv global 3.8.6
+pyenv global 3.10.0
 ```
 
 Once again, quit **all your opened terminal windows** (`Cmd` + `Q`) and restart one.
