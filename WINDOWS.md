@@ -965,6 +965,12 @@ Then let's install some packages for the first weeks of the program:
 pip install -Ur https://raw.githubusercontent.com/lewagon/data-runner/py-3.8.6-pandas-1.3latest/requirements.txt
 ```
 
+or
+
+```bash
+pip install -Ur pytest pylint ipdb pyyaml nbresult autopep8 flake8 lxml requests bs4 pandas<1.4 matplotlib numpy<1.20 scikit-learn<0.25
+```
+
 Finally, more Data Science packages:
 
 ```bash
