@@ -968,7 +968,7 @@ pip install -Ur https://raw.githubusercontent.com/lewagon/data-runner/py-3.8.6-p
 or
 
 ```bash
-pip install -Ur pytest pylint ipdb pyyaml nbresult autopep8 flake8 lxml requests bs4 pandas<1.4 matplotlib numpy<1.20 scikit-learn<0.25
+pip install -U pytest pylint ipdb pyyaml nbresult autopep8 flake8 lxml requests bs4 pandas matplotlib numpy scikit-learn
 ```
 
 Finally, more Data Science packages:
