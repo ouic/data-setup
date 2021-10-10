@@ -654,7 +654,7 @@ To be sure that you can interact with your browser installed on Windows from you
   If you get an error like `ls: cannot access...` Run the following command:
 
   ```bash
-    echo "export BROWSER='\"/mnt/c/Program Files/Google/Chrome/Application/chrome.exe\"'" >> ~/.zshrc
+    echo "export BROWSER='\"/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe\"'" >> ~/.zshrc
   ```
 
   Else run:
