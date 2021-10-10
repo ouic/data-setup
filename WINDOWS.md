@@ -937,7 +937,7 @@ Once again, quit **all your opened terminal windows** (`Cmd` + `Q`) and restart 
 Let's create the virtual environment we are going to use during the whole bootcamp:
 
 ```bash
-pyenv virtualenv 3.8.6 lewagon
+pyenv virtualenv 3.10.0 lewagon
 ```
 
 Let's now set the virtual environment with:
