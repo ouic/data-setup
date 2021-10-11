@@ -975,7 +975,7 @@ pip install -U pytest pylint ipdb pyyaml nbresult autopep8 flake8 lxml requests 
 Finally, more Data Science packages:
 
 ```bash
-pip install -U jupyterlab seaborn plotly tensorflow nbconvert scikit-learn numpy xgboost statsmodels pandas-profiling dtale jupyter-resource-usage
+pip install -U jupyterlab seaborn plotly tensorflow nbconvert yapf scikit-learn numpy xgboost statsmodels pandas-profiling dtale jupyter-resource-usage
 ```
 
 ### Packages check up
