@@ -912,7 +912,7 @@ OK once this command is complete, we are going to tell the system to use this ve
 pyenv global 3.8.6
 ```
 
-Once again, quit **all your opened terminal windows** (`Cmd` + `Q`) and restart one.
+Once again, ⚠️ quit **all your opened terminal windows** ⚠️ (`Cmd` + `Q`) and restart one.
 
 To check if this worked, run
 
