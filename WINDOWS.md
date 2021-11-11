@@ -1562,3 +1562,14 @@ If you don't have a lot of experience with `git` and GitHub, please [(re-)watch 
 If you do, then you can wait for the first lecture working on this [Tic-Tac-Toe Kata](https://www.codewars.com/kata/5b817c2a0ce070ace8002be0/train/python)
 
 
+
+## télécharger tous mes repositories d'un coup
+
+remplacer $USERNAME par votre nom d'utilisateur GitHub
+```bash
+curl "https://api.github.com/users/$USERNAME/repos?page=$PAGE&per_page=100" | 
+  grep -e 'git_url*' |
+  cut -d \" -f 4 |
+  xargs -L1 git clone
+```
+
