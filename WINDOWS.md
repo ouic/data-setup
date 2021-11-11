@@ -1566,6 +1566,7 @@ If you do, then you can wait for the first lecture working on this [Tic-Tac-Toe 
 ## télécharger tous mes repositories d'un coup
 
 ```bash
+cd /home/$USERNAME/code/$USERNAME
 curl "https://api.github.com/users/$USERNAME/repos?page=$PAGE&per_page=100" | 
   grep -e 'git_url*' |
   cut -d \" -f 4 |
